@@ -22,6 +22,7 @@ import locale_pt from '@angular/common/locales/pt-PT';
 import locale_tr from '@angular/common/locales/tr';
 import locale_de from '@angular/common/locales/de';
 import locale_ru from '@angular/common/locales/ru';
+import locale_ja from '@angular/common/locales/ja';
 import { ClrCommonStrings } from '@clr/angular/utils/i18n/common-strings.interface';
 
 export const enum AlertType {
@@ -263,6 +264,7 @@ export const LANGUAGES = {
     'tr-tr': ['Türkçe', locale_tr],
     'de-de': ['Deutsch', locale_de],
     'ru-ru': ['Русский', locale_ru],
+    'ja-jp': ['日本語', locale_ja],
 } as const;
 export const supportedLangs = Object.keys(LANGUAGES) as SupportedLanguage[];
 /**
